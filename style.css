@@ -36,7 +36,7 @@ body{
 }
 
 .card h1 {
-    color; var(--white);
+    color:var(--white);
 }
 .card p {
     color: var(--ligth-grey);
@@ -47,4 +47,8 @@ body{
     background-color: var(--dark-blue);
     width: 48px;
     height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
  }
